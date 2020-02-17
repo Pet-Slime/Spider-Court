@@ -1,0 +1,62 @@
+// crocodile
+effect: .name "Hive DotStress 1" .target "target" .chance 90% .dotStress 5 .duration 3	.on_hit true .on_miss false	.queue true
+effect: .name "Hive DotStress 2" .target "target" .chance 90% .dotStress 7 .duration 3	.on_hit true .on_miss false	.queue true
+
+effect: .name "CrocDotHeal 1" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 5 .can_crit_heal false .on_hit true .on_miss true .queue true
+effect: .name "CrocDotHeal 2" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 4 .duration 5 .can_crit_heal false .on_hit true .on_miss true .queue true
+
+effect: .name "Horror 1" .target "target" .curio_result_type "negative" .chance 100%  .dotStress 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Horror 2" .target "target" .curio_result_type "negative" .chance 110%  .dotStress 7 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Horror 3" .target "target" .curio_result_type "negative" .chance 120%  .dotStress 9 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Horror 4" .target "target" .curio_result_type "negative" .chance 130%  .dotStress 11 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Horror 5" .target "target" .curio_result_type "negative" .chance 140%  .dotStress 13 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Vampire Hunting Self" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "TRINKET_VAMPIREHUNTER_DMGL" "TRINKET_VAMPIREHUNTER_DMGH" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Vampire Hunting Party" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "TRINKET_VAMPIREHUNTER_DMGL" "TRINKET_VAMPIREHUNTER_DMGH" .duration 1 .on_hit true .on_miss false .queue true
+
+
+//Countess Additions
+effect: .name "Letter Opener Bleed" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 1 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "countScare bark" .target "target" .bark str_boss_countess_scared .chance 100% .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "countess stress resist" .target "target" .curio_result_type "neutral" .buff_ids "TRINKET_STRESSDMG_B3" .on_hit true .on_miss false .queue true
+
+//Tic Zombie Change
+effect: .name "CourtyardPlus Bleed Res Debuff 1" .target "target" .chance 100% .tag 1 .duration 3 .buff_ids "BLEEDRESIST-25" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "CourtyardPlus Bleed Res Debuff 3" .target "target" .chance 120% .tag 1 .duration 3 .buff_ids "BLEEDRESIST-25" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "CourtyardPlus Bleed Res Debuff 5" .target "target" .chance 140% .tag 1 .duration 3 .buff_ids "BLEEDRESIST-25" .duration 3 .on_hit true .on_miss false .queue true
+
+/// Scarab Chef
+effect: .name "The Blessed Summon A" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .summon_count 1 .summon_monsters virago_shroom_A .summon_chances 1.0 .summon_rank_is_previous_monster_class false
+effect: .name "The Blessed Summon B" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .summon_count 1 .summon_monsters virago_shroom_B .summon_chances 1.0 .summon_rank_is_previous_monster_class false
+effect: .name "The Blessed Summon C" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .summon_count 1 .summon_monsters virago_shroom_C .summon_chances 1.0 .summon_rank_is_previous_monster_class false
+
+effect: .name "Spider Bishop Mark 1"	.target "target" .chance 30% .tag 1  .duration 3 .on_hit true .on_miss false .apply_once false
+effect: .name "Spider Bishop Mark 3"	.target "target" .chance 40% .tag 1  .duration 3 .on_hit true .on_miss false .apply_once false
+effect: .name "Spider Bishop Mark 5"	.target "target" .chance 50% .tag 1  .duration 3 .on_hit true .on_miss false .apply_once false
+
+effect: .name "Spider Bishop Horror 1" .target "target" .chance 50% .dotStress 2 .duration 3 .on_hit true .on_miss false .queue true .apply_once false
+effect: .name "Spider Bishop Horror 3" .target "target" .chance 62% .dotStress 3 .duration 3 .on_hit true .on_miss false .queue true .apply_once false
+effect: .name "Spider Bishop Horror 5" .target "target" .chance 75% .dotStress 4 .duration 3 .on_hit true .on_miss false .queue true .apply_once false
+
+effect: .name "Spider Bishop Spd 1" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add 3 .on_hit true .on_miss false .apply_once false 
+effect: .name "Spider Bishop Spd 3" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add 4 .on_hit true .on_miss false .apply_once false 
+effect: .name "Spider Bishop Spd 5" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add 5 .on_hit true .on_miss false .apply_once false 
+
+effect: .name "Spider Bishop Dodge 1" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 5% .on_hit true .on_miss false .apply_once false 
+effect: .name "Spider Bishop Dodge 3" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 7.5% .on_hit true .on_miss false .apply_once false 
+effect: .name "Spider Bishop Dodge 5" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 10% .on_hit true .on_miss false .apply_once false 
+
+effect: .name "Spider Bishop Blight Amount" .target "target" .chance 100% .buff_ids "spider_bishop_blight_amount_increase" .duration 3 .on_hit true .on_miss false  .queue true .apply_once false 
+
+effect: .name "Scarab Chef Max Hp 1" .target "target" .chance 100% .buff_ids "scarab_chef_max_hp" .buff_duration_type combat_end .duration 1 .on_hit true .on_miss true  .queue true .apply_once false 
+
+effect: .name "Scarab Chef Stress Done 1" .target "target" .chance 100% .buff_ids "scarab_chef_stress_done_buff_1" .duration 3 .on_hit true .on_miss true  .queue true .apply_once true 
+effect: .name "Scarab Chef Stress Done 3" .target "target" .chance 100% .buff_ids "scarab_chef_stress_done_buff_3" .duration 3 .on_hit true .on_miss true  .queue true .apply_once true 
+effect: .name "Scarab Chef Stress Done 5" .target "target" .chance 100% .buff_ids "scarab_chef_stress_done_buff_5" .duration 3 .on_hit true .on_miss true  .queue true .apply_once true 
+
+effect: .name "Scarab Chef Stress Dealt 1" .target "target_enemy_group" .curio_result_type "negative" .chance 100% .stress 4 .on_hit true .on_miss true .queue true .apply_once false 
+effect: .name "Scarab Chef Stress Dealt 3" .target "target_enemy_group" .curio_result_type "negative" .chance 100% .stress 6 .on_hit true .on_miss true .queue true .apply_once false 
+effect: .name "Scarab Chef Stress Dealt 5" .target "target_enemy_group" .curio_result_type "negative" .chance 100% .stress 8 .on_hit true .on_miss true .queue true .apply_once false 
+
+effect: .name "Scarab Chef Heal" .target "target" .chance 100% .heal_percent 0.33  .on_hit true .on_miss true .queue true .apply_once false 
+effect: .name "Scarab Chef Heal Small" .target "target" .chance 100% .heal_percent 0.2  .on_hit true .on_miss true .queue true .apply_once false

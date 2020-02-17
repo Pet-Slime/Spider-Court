@@ -1,0 +1,5 @@
+commonfx: .deathfx death_large
+skill: .id "sc_preach" .anim "attack_claw" .fx "" .targchestfx "" .area_pos_offset 0 -15
+skill: .id "sc_proclaim" .anim "attack_rake" .fx "hands_red" .targchestfx "blood_splatter" 
+skill: .id "sc_sermonize" .anim "attack_lightning" .fx "self_lightning" .targfx "" .area_pos_offset 0 -80 
+skill: .id "sc_weep_for_the_dead" .anim "attack_spit" .fx "vomit" .targheadfx "" .area_pos_offset 0 -40

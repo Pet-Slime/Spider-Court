@@ -1,0 +1,209 @@
+
+scarab_chef.sprite.combat.png
+size: 2177,454
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base_bottom
+  rotate: true
+  xy: 3, 18
+  size: 433, 498
+  orig: 433, 498
+  offset: 0, 0
+  index: -1
+base_top
+  rotate: false
+  xy: 504, 115
+  size: 411, 336
+  orig: 411, 336
+  offset: 0, 0
+  index: -1
+beetle_face
+  rotate: false
+  xy: 1695, 107
+  size: 167, 125
+  orig: 167, 125
+  offset: 0, 0
+  index: -1
+beetle_foot_12
+  rotate: false
+  xy: 1278, 182
+  size: 184, 107
+  orig: 184, 107
+  offset: 0, 0
+  index: -1
+beetle_leg_1
+  rotate: true
+  xy: 1743, 235
+  size: 74, 194
+  orig: 74, 194
+  offset: 0, 0
+  index: -1
+beetle_leg_10
+  rotate: true
+  xy: 924, 43
+  size: 139, 227
+  orig: 139, 227
+  offset: 0, 0
+  index: -1
+beetle_leg_2
+  rotate: true
+  xy: 717, 12
+  size: 100, 204
+  orig: 100, 204
+  offset: 0, 0
+  index: -1
+beetle_leg_3
+  rotate: false
+  xy: 1253, 27
+  size: 153, 152
+  orig: 153, 152
+  offset: 0, 0
+  index: -1
+beetle_leg_4
+  rotate: false
+  xy: 1865, 98
+  size: 81, 134
+  orig: 81, 134
+  offset: 0, 0
+  index: -1
+beetle_leg_5
+  rotate: true
+  xy: 1465, 128
+  size: 120, 227
+  orig: 120, 227
+  offset: 0, 0
+  index: -1
+beetle_leg_6
+  rotate: true
+  xy: 1949, 69
+  size: 93, 127
+  orig: 93, 127
+  offset: 0, 0
+  index: -1
+beetle_leg_7
+  rotate: false
+  xy: 1585, 9
+  size: 106, 116
+  orig: 106, 116
+  offset: 0, 0
+  index: -1
+beetle_leg_8
+  rotate: true
+  xy: 1949, 165
+  size: 87, 168
+  orig: 87, 168
+  offset: 0, 0
+  index: -1
+beetle_leg_9
+  rotate: false
+  xy: 1154, 19
+  size: 96, 163
+  orig: 96, 163
+  offset: 0, 0
+  index: -1
+beetle_pin
+  rotate: true
+  xy: 918, 185
+  size: 104, 357
+  orig: 104, 357
+  offset: 0, 0
+  index: -1
+beetle_scarf
+  rotate: false
+  xy: 1743, 312
+  size: 240, 139
+  orig: 240, 139
+  offset: 0, 0
+  index: -1
+beetle_sleeve_1
+  rotate: true
+  xy: 504, 16
+  size: 96, 210
+  orig: 96, 210
+  offset: 0, 0
+  index: -1
+beetle_sleeve_2
+  rotate: true
+  xy: 1409, 36
+  size: 89, 173
+  orig: 89, 173
+  offset: 0, 0
+  index: -1
+eyestalk_1
+  rotate: true
+  xy: 1847, 3
+  size: 63, 75
+  orig: 63, 75
+  offset: 0, 0
+  index: -1
+eyestalk_1_1
+  rotate: false
+  xy: 1940, 261
+  size: 43, 48
+  orig: 43, 48
+  offset: 0, 0
+  index: -1
+eyestalk_2
+  rotate: true
+  xy: 1925, 26
+  size: 40, 72
+  orig: 40, 72
+  offset: 0, 0
+  index: -1
+eyestalk_2_1
+  rotate: true
+  xy: 2000, 26
+  size: 40, 56
+  orig: 40, 56
+  offset: 0, 0
+  index: -1
+hat
+  rotate: true
+  xy: 1986, 255
+  size: 196, 181
+  orig: 196, 181
+  offset: 0, 0
+  index: -1
+mandible_1
+  rotate: false
+  xy: 2120, 158
+  size: 54, 94
+  orig: 54, 94
+  offset: 0, 0
+  index: -1
+mandible_2
+  rotate: true
+  xy: 1694, 3
+  size: 101, 70
+  orig: 101, 70
+  offset: 0, 0
+  index: -1
+mandible_3
+  rotate: false
+  xy: 1767, 6
+  size: 77, 98
+  orig: 77, 98
+  offset: 0, 0
+  index: -1
+mandible_4
+  rotate: false
+  xy: 2079, 53
+  size: 86, 102
+  orig: 86, 102
+  offset: 0, 0
+  index: -1
+serving_tray
+  rotate: false
+  xy: 1466, 251
+  size: 274, 200
+  orig: 274, 200
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 918, 292
+  size: 159, 545
+  orig: 159, 545
+  offset: 0, 0
+  index: -1

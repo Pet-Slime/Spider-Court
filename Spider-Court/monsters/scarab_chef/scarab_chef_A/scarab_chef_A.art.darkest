@@ -1,0 +1,6 @@
+commonfx: .deathfx death_large
+skill: .id "sc_pin_smack" .anim "attack_pins" .fx "pin_swipe" .targchestfx "blood_splatter" .area_pos_offset 0 -35
+skill: .id "sc_first_course" .anim "first_course" .fx "flies_1" .targfx "battlefield_bandage_target" 
+skill: .id "sc_second_course" .anim "second_course" .fx "flies_2" .targchestfx "stress_cloud" 
+skill: .id "sc_third_course" .anim "third_course" .fx "flies_3" .targfx "battlefield_bandage_target" 
+defending_area_pos_offset: .offset 0 -25

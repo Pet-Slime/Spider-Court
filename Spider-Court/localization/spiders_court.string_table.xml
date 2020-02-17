@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+  <!-- New Monster -->
+  <entry id="str_monstername_scarab_chef_A"><![CDATA[Third Tier Chef]]></entry>
+  <entry id="str_monstername_scarab_chef_B"><![CDATA[Second Rate Chef]]></entry>
+  <entry id="str_monstername_scarab_chef_C"><![CDATA[First Class Chef]]></entry>
+  <!-- Monster Attacks -->
+  <entry id="str_monster_skill_sc_pin_smack"><![CDATA[Pin Swipe]]></entry>
+  <entry id="str_monster_skill_sc_first_course"><![CDATA[First Course]]></entry>
+  <entry id="str_monster_skill_sc_second_course"><![CDATA[Second Course]]></entry>
+  <entry id="str_monster_skill_sc_third_course"><![CDATA[Third and Final Course]]></entry>
+ 
+</language>
+</root>
+

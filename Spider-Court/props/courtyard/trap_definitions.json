@@ -1,0 +1,106 @@
+{
+    "props": [
+        {
+            "name": "slumbering_vampire",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "trap"
+                },
+                "graphics_file": "props/courtyard/traps/slumbering_vampire/slumbering_vampire.skel",
+                "success_effects": [ "Heal Stress TrapD" ],
+                "fail_effects": [ "Horror 1" ],
+                "health": -0.01,
+                "audio_path" : "/props/traps/slumbering_vampire"
+            },
+            "difficulty_variations": [
+                {
+                    "level": 2,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ "Horror 2" ],
+                    "health": -0.02,
+                    "graphics_file": "props/courtyard/traps/slumbering_vampire/slumbering_vampire.skel"
+                },
+				{
+                    "level": 3,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ "Horror 3" ],
+                    "health": -0.03,
+                    "graphics_file": "props/courtyard/traps/slumbering_vampire/slumbering_vampire.skel"
+                },
+				{
+                    "level": 4,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ "Horror 4" ],
+                    "health": -0.04,
+                    "graphics_file": "props/courtyard/traps/slumbering_vampire/slumbering_vampire.skel"
+                },
+                {
+                    "level": 5,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ "Horror 5" ],
+                    "health": -0.05,
+                    "graphics_file": "props/courtyard/traps/slumbering_vampire/slumbering_vampire.skel"
+                },
+                {
+                    "level": 6,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ "Horror 5" ],
+                    "health": -0.06,
+                    "graphics_file": "props/courtyard/traps/slumbering_vampire/slumbering_vampire.skel"
+                }
+            ]
+        },
+              {
+            "name": "blood_puddle",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "trap"
+                },
+                "graphics_file": "props/courtyard/traps/blood_puddle/blood_puddle.skel",
+                "success_effects": [ "Heal Stress TrapD" ],
+                "generate_ambush": "trap",
+                "fail_effects": [ ],
+                "health": -0.02,
+                "audio_path": "/props/traps/blood_puddle"
+            },
+         "difficulty_variations": [
+                {
+                    "level": 2,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ ],
+                    "health": -0.04,
+                    "graphics_file": "props/courtyard/traps/blood_puddle/blood_puddle.skel"
+                },
+				{
+                    "level": 3,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ ],
+                    "health": -0.06,
+                    "graphics_file": "props/courtyard/traps/blood_puddle/blood_puddle.skel"
+                },
+                {
+                    "level": 4,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ ],
+                    "health": -0.08,
+                    "graphics_file": "props/courtyard/traps/blood_puddle/blood_puddle.skel"
+                },
+				{
+                    "level": 5,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ ],
+                    "health": -0.10,
+                    "graphics_file": "props/courtyard/traps/blood_puddle/blood_puddle.skel"
+                },
+                {
+                    "level": 6,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ ],
+                    "health": -0.12,
+                    "graphics_file": "props/courtyard/traps/blood_puddle/blood_puddle.skel"
+                }
+            ]
+        }
+      
+    ]
+}

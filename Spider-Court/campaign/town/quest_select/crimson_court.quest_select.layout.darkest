@@ -1,0 +1,14 @@
+quest_select_dungeon_layout_courtyard:
+    .quest_map_pos 560 305
+    .quest_number_of_quests_in_row 4
+    .all_quest_map_pos 840 680
+    .all_quest_number_of_quests_in_row 11
+    .dungeon_effect_overlay_pos 890 530
+    .has_visible_progression 1
+
+town_quest_select_infestation_layout:
+    .banner_pos 110 0
+
+town_quest_select_dungeon_estate_inventory_dependency_layout:
+    .icon_offset -32 -34
+    .number_offset 38 -3

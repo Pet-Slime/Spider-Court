@@ -1,0 +1,171 @@
+{
+	"monster_brains" : [
+        {
+            "id": "bishop_D",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "sc_preach",
+                    "amount": 3
+                },
+				{
+                    "combat_skill_id": "sc_proclaim",
+                    "amount": 1
+                },
+				{
+                    "combat_skill_id": "sc_sermonize",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 100000.0,
+                        "combat_skill_id": "sc_preach"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "sc_proclaim"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "sc_sermonize"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+				{
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": [
+			{
+                   "type": "ally_actor_class_count",
+					"data":
+					{
+					"is_round_start": true,
+					"is_round_in_progress": true,
+					"is_round_finish": false,
+					"is_pre_turn": false,
+					"is_post_turn": false,
+					"combat_skill_id_override": "sc_weep_for_the_dead",
+                    "ally_actor_class_count" : 1,
+                    "ally_base_class_id" : "corpse",
+					"ally_count_min": 1,
+                    "ally_count_max": 4,
+                    "is_cooldown_enabled": false,
+                    "ignore_if_stun": true
+
+					}
+                },
+                {
+                   "type": "ally_actor_class_count",
+					"data":
+					{
+					"is_round_start": true,
+					"is_round_in_progress": true,
+					"is_round_finish": false,
+					"is_pre_turn": false,
+					"is_post_turn": true,
+					"combat_skill_id_override": "sc_weep_for_the_dead",
+                    "ally_actor_class_count" : 1,
+                    "ally_base_class_id" : "corpse_large",
+					"ally_count_min": 1,
+                    "ally_count_max": 4,
+                    "is_cooldown_enabled": false,
+                    "ignore_if_stun": true
+					}
+				}
+			]
+        },
+		 {
+            "id": "scarab_chef",
+            "skill_cooldowns": [
+            ],
+            "skill_selection_desires": [
+                
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "sc_pin_smack"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.000001,
+                        "combat_skill_id": "sc_first_course"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.000001,
+                        "combat_skill_id": "sc_second_course"
+                    }
+                },
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.000001,
+                        "combat_skill_id": "sc_third_course"
+                    }
+                },
+				{
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 10000000.0,
+                        "combat_skill_id": "sc_first_course",
+                        "performing_turn": 1
+                    }
+                },
+				{
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 10000000.0,
+                        "combat_skill_id": "sc_second_course",
+                        "performing_turn": 2
+                    }
+                },
+				{
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 10000000.0,
+                        "combat_skill_id": "sc_third_course",
+                        "performing_turn": 3
+                    }
+                }
+            ],
+            "target_selection_desires": [
+				{
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": [
+			]
+        }
+	
+	]
+}
