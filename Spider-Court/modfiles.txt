@@ -687,10 +687,10 @@ monsters/scarab_chef/scarab_chef_A/scarab_chef_A.art.darkest 490
 monsters/scarab_chef/scarab_chef_A/scarab_chef_A.info.darkest 1350
 monsters/scarab_chef/scarab_chef_A/tint.png 7495
 monsters/scarab_chef/scarab_chef_B/scarab_chef_B.art.darkest 426
-monsters/scarab_chef/scarab_chef_B/scarab_chef_B.info.darkest 1188
+monsters/scarab_chef/scarab_chef_B/scarab_chef_B.info.darkest 1348
 monsters/scarab_chef/scarab_chef_B/tint.png 7495
 monsters/scarab_chef/scarab_chef_C/scarab_chef_C.art.darkest 426
-monsters/scarab_chef/scarab_chef_C/scarab_chef_C.info.darkest 1188
+monsters/scarab_chef/scarab_chef_C/scarab_chef_C.info.darkest 1348
 monsters/scarab_chef/scarab_chef_C/tint.png 7495
 monsters/statue_hand/anim/statue_hand.sprite.attack_spear.atlas 207
 monsters/statue_hand/anim/statue_hand.sprite.attack_spear.png 206424
@@ -902,6 +902,9 @@ monsters/viscount/anim/viscount.sprite.attack_forelegs.skel 867
 monsters/viscount/anim/viscount.sprite.attack_knife.atlas 300
 monsters/viscount/anim/viscount.sprite.attack_knife.png 448744
 monsters/viscount/anim/viscount.sprite.attack_knife.skel 928
+monsters/viscount/anim/viscount.sprite.call.atlas 292
+monsters/viscount/anim/viscount.sprite.call.png 494545
+monsters/viscount/anim/viscount.sprite.call.skel 928
 monsters/viscount/anim/viscount.sprite.combat.atlas 4375
 monsters/viscount/anim/viscount.sprite.combat.png 687948
 monsters/viscount/anim/viscount.sprite.combat.skel 291021
@@ -930,8 +933,9 @@ monsters/viscount/viscount_B/tint.png 7495
 monsters/viscount/viscount_B/viscount_B.art.darkest 1337
 monsters/viscount/viscount_B/viscount_B.info.darkest 2135
 monsters/viscount/viscount_C/tint.png 7495
-monsters/viscount/viscount_C/viscount_C.art.darkest 1337
-monsters/viscount/viscount_C/viscount_C.info.darkest 2383
+monsters/viscount/viscount_C/viscount_C.art.darkest 1417
+monsters/viscount/viscount_C/viscount_C.info.darkest 2526
+campaign/districts/cc_districts.json 5187
 campaign/progression/infestation.progression.json 7662
 campaign/quest/crimson_court.quest.generation.json 23661
 campaign/quest/crimson_court.quest.plot_quests.json 9780
@@ -1025,8 +1029,8 @@ dungeons/crypts/cc.crypts.additional.1.mash.darkest 614
 dungeons/crypts/cc.crypts.additional.3.mash.darkest 614
 dungeons/crypts/cc.crypts.additional.5.mash.darkest 614
 dungeons/crypts/cc.crypts.conditional.1.mash.darkest 1356
-dungeons/crypts/cc.crypts.conditional.3.mash.darkest 1345
-dungeons/crypts/cc.crypts.conditional.5.mash.darkest 1336
+dungeons/crypts/cc.crypts.conditional.3.mash.darkest 0
+dungeons/crypts/cc.crypts.conditional.5.mash.darkest 0
 dungeons/warrens/cc.warrens.1.mash.darkest 286
 dungeons/warrens/cc.warrens.3.mash.darkest 286
 dungeons/warrens/cc.warrens.5.mash.darkest 286
@@ -1048,7 +1052,7 @@ dungeons/weald/cc.weald.conditional.5.mash.darkest 1336
 panels/icons_map/CC_BossIcon.png 27801
 props/courtyard/trap_definitions.json 4374
 raid/actor_dot/crimson_court.actor_dot.json 2159
-raid/ai/crimson_court.monster_brains.json 105135
+raid/ai/crimson_court.monster_brains.json 65408
 raid/ai/spiders_court.monster_brains.json 5537
 scripts/layout/crimson_court.popup_text.layout.darkest 712
 scripts/layout/crimson_court.quirk_transition.anim.darkest 140
@@ -1058,7 +1062,7 @@ shared/estate/currency.the_blood.icon.png 3286
 curios/cc_curio_props.csv 1496
 curios/cc_curio_type_library.csv 16608
 effects/crimson_court.effects.darkest 48719
-effects/spiders_court.effects.darkest 7589
+effects/spiders_court.effects.darkest 8309
 inventory/crimson_court.estate.inventory.items.darkest 792
 inventory/crimson_court.inventory.system_configs.darkest 101
 inventory/crimson_court.quest.inventory.items.darkest 603
@@ -1088,7 +1092,7 @@ trinkets/crimson_court.entries.trinkets.json 23296
 trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/crimson_court.sets.trinkets.json 2601
 trinkets/crimson_court.starting.trinkets.json 37
-SpiderCourt_project.xml 1149
-modfiles.txt 61057
+SpiderCourt_project.xml 1150
+modfiles.txt 64488
 preview_icon.png 28513
 project.xml 1150

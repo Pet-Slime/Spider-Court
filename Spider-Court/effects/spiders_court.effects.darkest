@@ -29,7 +29,7 @@ effect: .name "CourtyardPlus Bleed Res Debuff 5" .target "target" .chance 140% .
 effect: .name "Viscount ProtectMe ClearGuardsPerformer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2
 effect: .name "Viscount ProtectMe ClearGuardsTarget" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 
 effect: .name "Viscount ProtectMe Guard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 7
-effect: .name "Summon Chef" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters scarab_chef_C .summon_chances 1.0 .summon_limits 1 .summon_ranks 4 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Chef" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters scarab_chef_C .summon_chances 3.0 2.0 2.0 .summon_limits 2 1 1 .on_hit true .on_miss true .apply_once true
 
 /// Scarab Chef
 effect: .name "The Blessed Summon A" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .summon_count 1 .summon_monsters virago_shroom_A .summon_chances 1.0 .summon_rank_is_previous_monster_class false

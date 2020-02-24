@@ -2430,6 +2430,10 @@
 				{
 					"combat_skill_id": "hide_behind",
 					"amount": 3
+				},
+				{
+					"combat_skill_id": "chef_summon",
+					"amount": 30
 				}
 			],
 			"skill_selection_desires": [{
@@ -2489,6 +2493,17 @@
 					"data": {
 						"base_chance": 7.0,
 						"combat_skill_id": "hungry_eyes"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 2000.0,
+						"monsters_min": 1,
+						"monsters_max": 1,
+						"monsters_size_min": 1,
+						"monsters_size_max": 2,
+						"combat_skill_id": "chef_summon"
 					}
 				}
 			],
@@ -2569,18 +2584,7 @@
 					}
 				}
 			],
-			"bonus_initiative_desires": [{
-                    "type": "guaranteed",
-                    "data": {
-                        "is_round_start": true,
-                        "is_round_in_progress": false,
-                        "is_round_finish": false,
-                        "is_pre_turn": true,
-                        "is_post_turn": false,
-                        "combat_skill_id_override": "cannon_summon",
-                        "monsters_size_limit": 10
-                    }
-                }]
+			"bonus_initiative_desires": []
 		},
 		{
 			"id": "statue_head_A",
