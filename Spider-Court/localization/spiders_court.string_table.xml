@@ -10,6 +10,8 @@
   <entry id="str_monster_skill_sc_first_course"><![CDATA[First Course]]></entry>
   <entry id="str_monster_skill_sc_second_course"><![CDATA[Second Course]]></entry>
   <entry id="str_monster_skill_sc_third_course"><![CDATA[Third and Final Course]]></entry>
+  <entry id="str_monster_skill_hide_behind"><![CDATA[Cower Behind]]></entry>
+  <entry id="str_monster_skill_chef_summon"><![CDATA[Call the Chef!]]></entry>
  
 </language>
 </root>

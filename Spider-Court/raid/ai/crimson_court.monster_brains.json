@@ -47,7 +47,7 @@
 				{
 					"type": "marked_target",
 					"data": {
-						"base_chance": 100.0,
+						"base_chance": 1000.0,
 						"specific_combat_skill_id": "gather_the_blood",
 						"is_exclusive_desire": false,
 						"is_enemy_target_desire": true,
@@ -88,7 +88,7 @@
 				{
 					"type": "marked_target",
 					"data": {
-						"base_chance": 3.0,
+						"base_chance": 3000.0,
 						"specific_combat_skill_id": "",
 						"is_exclusive_desire": false,
 						"is_enemy_target_desire": true,
@@ -2464,14 +2464,30 @@
 					}
 				},
 				{
-					"type": "specific_skill",
+					"type": "ally_alive_skill",
 					"data": {
-						"base_chance": 2000.0,
+						"base_chance": 25.0,
+						"first_initiative_only": false,
 						"combat_skill_id": "hide_behind",
-						"guarded_monsters_min": 0,
-						"guarded_monsters_max": 1,
-						"monsters_min": 2,
-						"monsters_max": 4
+						"ally_base_class_id": "body_emaciated"
+					}
+				},
+				{
+					"type": "ally_alive_skill",
+					"data": {
+						"base_chance": 75.0,
+						"first_initiative_only": false,
+						"combat_skill_id": "hide_behind",
+						"ally_base_class_id": "body_average"
+					}
+				},
+				{
+					"type": "ally_alive_skill",
+					"data": {
+						"base_chance": 250.0,
+						"first_initiative_only": false,
+						"combat_skill_id": "hide_behind",
+						"ally_base_class_id": "body_bloated"
 					}
 				},
 				{

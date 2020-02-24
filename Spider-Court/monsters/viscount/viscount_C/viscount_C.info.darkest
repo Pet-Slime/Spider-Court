@@ -1,6 +1,6 @@
 display: .size 1
 enemy_type: .id "vampire"
-stats: .hp 400 .def 22.5% .prot 0 .spd 5 .stun_resist 50% .poison_resist 90% .bleed_resist 65% .debuff_resist 65% .move_resist 90%
+stats: .hp 127 .def 22.5% .prot 0 .spd 5 .stun_resist 50% .poison_resist 90% .bleed_resist 65% .debuff_resist 65% .move_resist 90%
 skill: .id "feed_on_emaciated" .type "melee" .atk 0% .dmg 0 0 .crit 0%  .effect "Cure Self" "Viscount Init Sub 1" "Emaciated Feed Buff" "Emaciated Feed Debuff" "Viscount Absorb Effect" .launch 4321 .target @4321 .self_target_valid False .is_crit_valid False
 skill: .id "feed_on_average" .type "melee" .atk 0% .dmg 0 0 .crit 0%  .effect "Cure Self" "Viscount Feed Average Heal" "Average Feed Buff 1" "Average Feed Buff 2" "Average Feed Debuff" "Viscount Absorb Effect" .launch 4321 .target @4321 .self_target_valid False .is_crit_valid False
 skill: .id "hungry_eyes" .type "ranged" .atk 97.5% .dmg 2 5 .crit 5%  .effect "Hands Off" "Viscount Acc Buff" "Hungry Eyes Stress" "Vis Shuffle Self" .launch 4321 .target 1234 .extra_targets_count 2 .extra_targets_chance 0.4
