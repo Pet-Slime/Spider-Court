@@ -1,3 +1,7 @@
+// The Blood district override
+effect: .name "the_blood_district_override" .target "performer" .curio_result_type "positive" .chance 100% .stress 20 .combat_stat_buff 1 .speed_rating_add 8 .defense_rating_add 10%  .on_hit true .on_miss true .queue true
+
+
 // crocodile
 effect: .name "Hive DotStress 1" .target "target" .chance 90% .dotStress 5 .duration 3	.on_hit true .on_miss false	.queue true
 effect: .name "Hive DotStress 2" .target "target" .chance 90% .dotStress 7 .duration 3	.on_hit true .on_miss false	.queue true

@@ -10,8 +10,7 @@ Exporting to maps/cc_map_baron.dm
 Processing maps/cc_map_countess.csv...
 Exporting to maps/cc_map_countess.dm
 Processing maps/cc_map_viscount.csv...
-ERROR Couldn't finish corridor started at 9,26Missing entrance! ("entrance" label)
-
+Exporting to maps/cc_map_viscount.dm
 
 -------------------------------------------------------------------------------
 Running Localization...
@@ -1089,6 +1088,7 @@ scripts/layout/crimson_court.popup_text.layout.darkest
 scripts/layout/crimson_court.quirk_transition.anim.darkest
 shared/buffs/crimson_court.buffs.json
 shared/buffs/spiders_court.buffs.json
+shared/buffs/spiders_court_district.buffs.json
 shared/estate/currency.the_blood.icon.png
 curios/cc_curio_props.csv
 curios/cc_curio_type_library.csv
@@ -1128,6 +1128,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting..........................................................................................................................................................................................................................................................Submitted.
+Submitting.........................................................................................................................................................................................................................................................................................................................Submitted.
 Saving project file F:\XinSon\Desktop\Darkest Dungeon mods\Darkest Dungeon Spider Court\data\Spider-Court\SpiderCourt_project.xml
 

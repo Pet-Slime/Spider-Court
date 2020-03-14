@@ -64,7 +64,7 @@ props/shared/curios/cc_wine_crate_quest/cc_wine_crate_quest.atlas 377
 props/shared/curios/cc_wine_crate_quest/cc_wine_crate_quest.png 161151
 props/shared/curios/cc_wine_crate_quest/cc_wine_crate_quest.skel 1491
 campaign/town/buildings/crimson_court.building.layout.darkest 52
-campaign/town/districts/cc_districts.json 1085
+campaign/town/districts/cc_districts.json 5240
 campaign/town/infestation/infestation.layout.darkest 459
 campaign/town/infestation/infestation_banner.png 47739
 campaign/town/provision/crimson_court.provision.layout.darkest 53
@@ -1058,11 +1058,12 @@ scripts/layout/crimson_court.popup_text.layout.darkest 712
 scripts/layout/crimson_court.quirk_transition.anim.darkest 140
 shared/buffs/crimson_court.buffs.json 77137
 shared/buffs/spiders_court.buffs.json 3015
+shared/buffs/spiders_court_district.buffs.json 2644
 shared/estate/currency.the_blood.icon.png 3286
 curios/cc_curio_props.csv 1496
 curios/cc_curio_type_library.csv 16608
 effects/crimson_court.effects.darkest 48719
-effects/spiders_court.effects.darkest 8309
+effects/spiders_court.effects.darkest 8568
 inventory/crimson_court.estate.inventory.items.darkest 792
 inventory/crimson_court.inventory.system_configs.darkest 101
 inventory/crimson_court.quest.inventory.items.darkest 603
