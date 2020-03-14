@@ -11,7 +11,7 @@
 				"float": 0,
 				"string": "disease_vampire_wasting"
 			},
-			"has_description": true
+			"has_description": false
 		},
 		{
 			"id": "SC_wasting_buff_speed",
@@ -25,7 +25,7 @@
 				"float": 0,
 				"string": "disease_vampire_wasting"
 			},
-			"has_description": true
+			"has_description": false
 		},
 		{
 			"id": "SC_wasting_buff_health",
@@ -39,7 +39,7 @@
 				"float": 0,
 				"string": "disease_vampire_wasting"
 			},
-			"has_description": true
+			"has_description": false
 		},
 		{
 			"id": "SC_wasting_debuff_stress",
@@ -54,6 +54,19 @@
 				"string": "disease_vampire_wasting"
 			},
 			"has_description": true
+		},
+		{
+			"id": "SC_district_tooltip",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "sc_district",
+			"amount": 0,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
 		},
 		{
 			"id": "QUIRK_monsterType_vampire_DMGL_B",

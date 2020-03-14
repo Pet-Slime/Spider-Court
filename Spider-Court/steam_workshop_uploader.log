@@ -965,7 +965,6 @@ monsters/viscount/viscount_B/viscount_B.info.darkest
 monsters/viscount/viscount_C/tint.png
 monsters/viscount/viscount_C/viscount_C.art.darkest
 monsters/viscount/viscount_C/viscount_C.info.darkest
-campaign/districts/cc_districts.json
 campaign/progression/infestation.progression.json
 campaign/quest/crimson_court.quest.generation.json
 campaign/quest/crimson_court.quest.plot_quests.json
@@ -1079,6 +1078,9 @@ dungeons/weald/cc.weald.additional.5.mash.darkest
 dungeons/weald/cc.weald.conditional.1.mash.darkest
 dungeons/weald/cc.weald.conditional.3.mash.darkest
 dungeons/weald/cc.weald.conditional.5.mash.darkest
+fx/town_district_fanatic_cult/town_district_fanatic_cult.sprite.atlas
+fx/town_district_fanatic_cult/town_district_fanatic_cult.sprite.png
+fx/town_district_fanatic_cult/town_district_fanatic_cult.sprite.skel
 panels/icons_map/CC_BossIcon.png
 props/courtyard/trap_definitions.json
 raid/actor_dot/crimson_court.actor_dot.json
@@ -1094,9 +1096,6 @@ curios/cc_curio_props.csv
 curios/cc_curio_type_library.csv
 effects/crimson_court.effects.darkest
 effects/spiders_court.effects.darkest
-inventory/crimson_court.estate.inventory.items.darkest
-inventory/crimson_court.inventory.system_configs.darkest
-inventory/crimson_court.quest.inventory.items.darkest
 loading_screen/loading_screen.courtyard_0.png
 loading_screen/loading_screen.fanatic.png
 loading_screen/loading_screen.plot_crimson_court_0.png
@@ -1106,15 +1105,12 @@ loading_screen/loading_screen.plot_crimson_court_3.png
 localization/1998664279_english.loc
 localization/CourtyardPlus.string_table.xml
 localization/spiders_court.string_table.xml
-loot/common_overrides.loot.json
-loot/crimson_court.loot.json
 maps/cc_map_baron.csv
 maps/cc_map_baron.dm
 maps/cc_map_countess.csv
 maps/cc_map_countess.dm
 maps/cc_map_viscount.csv
 maps/cc_map_viscount.dm
-overlays/blood_torch.png
 scripts/cc_raid_visuals.json
 scripts/map_generator.darkest
 scripts/raid_settings.json
@@ -1128,6 +1124,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting.........................................................................................................................................................................................................................................................................................................................Submitted.
+Submitting............................................................................................................................................................................................................................................................Submitted.
 Saving project file F:\XinSon\Desktop\Darkest Dungeon mods\Darkest Dungeon Spider Court\data\Spider-Court\SpiderCourt_project.xml
 

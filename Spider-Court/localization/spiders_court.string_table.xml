@@ -12,6 +12,15 @@
   <entry id="str_monster_skill_sc_third_course"><![CDATA[Third and Final Course]]></entry>
   <entry id="str_monster_skill_hide_behind"><![CDATA[Cower Behind]]></entry>
   <entry id="str_monster_skill_chef_summon"><![CDATA[Call the Chef!]]></entry>
+  
+  <!-- New districts -->
+  <entry id="str_medical_hall_title">								<![CDATA[Medical Hall]]></entry>
+  <entry id="str_blood_distillary_title">							<![CDATA[Blood Distillary]]></entry>
+  <entry id="str_spider_prayer_hall_title">							<![CDATA[Spider Prayer Hall]]></entry>
+  <entry id="str_fanatic_cult_title">								<![CDATA[Fanatic's meeting space (WIP NAME)]]></entry>
+  <entry id="str_blood_distillary_buff_blood_provision">			<![CDATA[Allows Heros to safely drink the Blood without the crimson curse.]]></entry>
+  <entry id="str_spider_prayer_hall_buff_blood_provision">			<![CDATA[WIP, just gives extra blood for now]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_sc_district">		<![CDATA[+10% Deathblow resist, +4 speed, and +10% max hp if Crimson Curse - Wasting]]></entry>
  
 </language>
 </root>
