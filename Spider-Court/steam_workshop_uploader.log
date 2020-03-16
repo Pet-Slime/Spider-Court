@@ -1081,7 +1081,6 @@ dungeons/weald/cc.weald.conditional.5.mash.darkest
 fx/town_district_fanatic_cult/town_district_fanatic_cult.sprite.atlas
 fx/town_district_fanatic_cult/town_district_fanatic_cult.sprite.png
 fx/town_district_fanatic_cult/town_district_fanatic_cult.sprite.skel
-panels/icons_map/CC_BossIcon.png
 props/courtyard/trap_definitions.json
 raid/actor_dot/crimson_court.actor_dot.json
 raid/ai/crimson_court.monster_brains.json
@@ -1091,7 +1090,6 @@ scripts/layout/crimson_court.quirk_transition.anim.darkest
 shared/buffs/crimson_court.buffs.json
 shared/buffs/spiders_court.buffs.json
 shared/buffs/spiders_court_district.buffs.json
-shared/estate/currency.the_blood.icon.png
 curios/cc_curio_props.csv
 curios/cc_curio_type_library.csv
 effects/crimson_court.effects.darkest
@@ -1115,15 +1113,11 @@ scripts/cc_raid_visuals.json
 scripts/map_generator.darkest
 scripts/raid_settings.json
 scripts/starting_roster.darkest
-trinkets/crimson_court.entries.trinkets.json
-trinkets/crimson_court.rarities.trinkets.json
-trinkets/crimson_court.sets.trinkets.json
-trinkets/crimson_court.starting.trinkets.json
 SpiderCourt_project.xml
 modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting............................................................................................................................................................................................................................................................Submitted.
+Submitting....................................................................................................................................................................................................................................................................................................................................Submitted.
 Saving project file F:\XinSon\Desktop\Darkest Dungeon mods\Darkest Dungeon Spider Court\data\Spider-Court\SpiderCourt_project.xml
 

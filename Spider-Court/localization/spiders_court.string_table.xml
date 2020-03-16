@@ -20,7 +20,7 @@
   <entry id="str_fanatic_cult_title">								<![CDATA[Fanatic's meeting space (WIP NAME)]]></entry>
   <entry id="str_blood_distillary_buff_blood_provision">			<![CDATA[Allows Heros to safely drink the Blood without the crimson curse.]]></entry>
   <entry id="str_spider_prayer_hall_buff_blood_provision">			<![CDATA[WIP, just gives extra blood for now]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_sc_district">		<![CDATA[+10% Deathblow resist, +4 speed, and +10% max hp if Crimson Curse - Wasting]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_sc_district">		<![CDATA[+10%% Deathblow resist, +4 speed, and +10%% max hp if Crimson Curse - Wasting]]></entry>
  
 </language>
 </root>

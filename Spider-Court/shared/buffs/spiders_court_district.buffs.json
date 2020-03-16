@@ -59,7 +59,7 @@
 			"id": "SC_district_tooltip",
 			"stat_type": "upgrade_discount",
 			"stat_sub_type": "sc_district",
-			"amount": 0,
+			"amount": -0.1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
 			"is_false_rule": false,

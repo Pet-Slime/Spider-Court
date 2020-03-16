@@ -43,8 +43,8 @@
             },
             "currency_cost": [
                 { "type": "gold", "amount": 0 },
-                { "type": "bust", "amount": 80 },
-                { "type": "blueprint", "amount": 1 }
+                { "type": "bust", "amount": 1 },
+                { "type": "blueprint", "amount": 0 }
             ],
             "buff_list": [
                 {
@@ -69,8 +69,8 @@
             },
             "currency_cost": [
                 { "type": "gold", "amount": 0 },
-                { "type": "bust", "amount": 80 },
-                { "type": "blueprint", "amount": 1 }
+                { "type": "bust", "amount": 1 },
+                { "type": "blueprint", "amount": 0 }
             ],
             "buff_list": [
                 {
@@ -96,8 +96,8 @@
             },
             "currency_cost": [
                 { "type": "gold", "amount": 0 },
-                { "type": "bust", "amount": 80 },
-                { "type": "blueprint", "amount": 1 }
+                { "type": "bust", "amount": 1 },
+                { "type": "blueprint", "amount": 0 }
             ],
             "buff_list": [
                 {
@@ -125,8 +125,8 @@
             },
             "currency_cost": [
                 { "type": "gold", "amount": 0 },
-                { "type": "bust", "amount": 80 },
-                { "type": "blueprint", "amount": 1 }
+                { "type": "bust", "amount": 8 },
+                { "type": "blueprint", "amount": 0 }
             ],
             "buff_list": [
                 {
