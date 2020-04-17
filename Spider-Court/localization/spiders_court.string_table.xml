@@ -5,6 +5,9 @@
   <entry id="str_monstername_scarab_chef_A"><![CDATA[Third Tier Chef]]></entry>
   <entry id="str_monstername_scarab_chef_B"><![CDATA[Second Rate Chef]]></entry>
   <entry id="str_monstername_scarab_chef_C"><![CDATA[First Class Chef]]></entry>
+  <entry id="str_monstername_bloody_butler_A"><![CDATA[Bloodstained Butler]]></entry>
+  <entry id="str_monstername_bloody_butler_B"><![CDATA[Blood-spattered Butler]]></entry>
+  <entry id="str_monstername_bloody_butler_C"><![CDATA[Blood-soaked Butler]]></entry>
   <!-- Monster Attacks -->
   <entry id="str_monster_skill_sc_pin_smack"><![CDATA[Pin Swipe]]></entry>
   <entry id="str_monster_skill_sc_first_course"><![CDATA[First Course]]></entry>
@@ -12,6 +15,11 @@
   <entry id="str_monster_skill_sc_third_course"><![CDATA[Third and Final Course]]></entry>
   <entry id="str_monster_skill_hide_behind"><![CDATA[Cower Behind]]></entry>
   <entry id="str_monster_skill_chef_summon"><![CDATA[Call the Chef!]]></entry>
+  <entry id="str_monster_skill_butler_protect"><![CDATA[Protect the Masters]]></entry>
+  <entry id="str_monster_skill_butler_greeting"><![CDATA[Dark Greetings!]]></entry>
+  <entry id="str_monster_skill_butler_dinner"><![CDATA[Dinner is served!]]></entry>
+  <entry id="str_monster_skill_butler_shown"><![CDATA[Show Around]]></entry>
+  <entry id="str_monster_skill_butler_revive"><![CDATA[My Life for the Masters!]]></entry>
   
   <!-- New districts -->
   <entry id="str_medical_hall_title">								<![CDATA[Medical Hall]]></entry>

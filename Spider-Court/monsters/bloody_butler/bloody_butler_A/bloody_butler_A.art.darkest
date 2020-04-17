@@ -1,0 +1,7 @@
+commonfx: .deathfx death_large
+skill: .id "butler_greeting" .anim "bow" .targchestfx "blood_splatter" .area_pos_offset 0 -35
+skill: .id "butler_protect" .anim "hitme" .targchestfx "blood_splatter" .area_pos_offset 0 -35
+skill: .id "butler_dinner" .anim "feast" .targchestfx "blood_splatter" .area_pos_offset 0 -35
+skill: .id "butler_shown" .anim "point".targchestfx "blood_splatter" .area_pos_offset 0 -35
+skill: .id "butler_revive" .anim "self_kill" .targchestfx "blood_splatter" .area_pos_offset 0 -35
+defending_area_pos_offset: .offset 0 -25

@@ -1,0 +1,20 @@
+
+bloody_butler.sprite.hitme.png
+size: 661,548
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: true
+  xy: 604, 216
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1
+bloodybutler_hitme
+  rotate: true
+  xy: 2, 2
+  size: 544, 600
+  orig: 544, 600
+  offset: 0, 0
+  index: -1

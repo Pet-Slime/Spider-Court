@@ -70,3 +70,8 @@ effect: .name "Scarab Chef Stress Dealt 5" .target "target_enemy_group" .curio_r
 
 effect: .name "Scarab Chef Heal" .target "target" .chance 100% .heal_percent 0.33  .on_hit true .on_miss true .queue true .apply_once false 
 effect: .name "Scarab Chef Heal Small" .target "target" .chance 100% .heal_percent 0.2  .on_hit true .on_miss true .queue true .apply_once false
+
+/// Bloody Butler
+effect: .name "on_death_swap_butler" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .summon_count 1 .summon_monsters esquire_A courtesan_A .summon_chances 1.0 2.0 .summon_rank_is_previous_monster_class true
+
+effect: .name "butler_kill_self" .target "performer" .chance 100% .kill 1 .on_hit true .on_miss true .apply_once true .queue true

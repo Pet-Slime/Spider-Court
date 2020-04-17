@@ -1,0 +1,76 @@
+
+bloody_butler.sprite.combat.png
+size: 1167,308
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 550, 59
+  size: 85, 315
+  orig: 85, 315
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 550, 2
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1
+11
+  rotate: true
+  xy: 401, 146
+  size: 160, 327
+  orig: 160, 327
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 2, 15
+  size: 120, 310
+  orig: 120, 310
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 882, 4
+  size: 187, 152
+  orig: 187, 152
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 314, 2
+  size: 234, 133
+  orig: 234, 133
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 1071, 78
+  size: 67, 103
+  orig: 67, 103
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 1047, 183
+  size: 118, 123
+  orig: 118, 123
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 730, 158
+  size: 148, 315
+  orig: 148, 315
+  offset: 0, 0
+  index: -1
+9
+  rotate: true
+  xy: 2, 137
+  size: 169, 397
+  orig: 169, 397
+  offset: 0, 0
+  index: -1

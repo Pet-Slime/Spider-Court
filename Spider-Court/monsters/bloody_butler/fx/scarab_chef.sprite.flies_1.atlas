@@ -1,0 +1,27 @@
+
+scarab_chef.sprite.flies_1.png
+size: 457,436
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+food_outline_1
+  rotate: false
+  xy: 3, 40
+  size: 451, 393
+  orig: 451, 393
+  offset: 0, 0
+  index: -1
+heal_particle1
+  rotate: true
+  xy: 66, 3
+  size: 34, 56
+  orig: 34, 56
+  offset: 0, 0
+  index: -1
+heal_particle2
+  rotate: true
+  xy: 3, 4
+  size: 33, 60
+  orig: 33, 60
+  offset: 0, 0
+  index: -1

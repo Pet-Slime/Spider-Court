@@ -1,0 +1,27 @@
+
+bloody_butler.sprite.self_kill.png
+size: 1546,604
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: true
+  xy: 1489, 272
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1
+bloodybutler_selfkilling
+  rotate: false
+  xy: 804, 2
+  size: 683, 600
+  orig: 683, 600
+  offset: 0, 0
+  index: -1
+bloodybutler_selfkillingFX
+  rotate: false
+  xy: 2, 2
+  size: 800, 600
+  orig: 800, 600
+  offset: 0, 0
+  index: -1

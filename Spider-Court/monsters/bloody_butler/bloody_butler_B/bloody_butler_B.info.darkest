@@ -1,0 +1,13 @@
+display: .size 1
+enemy_type: .id "vampire"
+stats: .hp 84 .def 0% .prot 0.15 .spd 11 .stun_resist 80% .poison_resist 70% .bleed_resist 100% .debuff_resist 60% .move_resist 55%
+skill: .id "butler_greeting" .type "ranged"  .atk 92.5% .dmg 4 8 .crit 11%  .effect  .launch 4321 .target ~1234 .effect "Ghoul Stress DOT" "Ghoul Stress DOT" 
+skill: .id "butler_protect" .type "melee" .atk 0% .dmg 0 0 .crit 0%  .effect "Antiq ProtectMe ClearGuardsPerformer" "Antiq ProtectMe ClearGuardsTarget" "Steward Human Guard" "Steward Prot Buff" .launch 4321 .target @4321 .self_target_valid False .is_crit_valid False
+skill: .id "butler_dinner" .type "ranged" .type "melee" .atk 0% .dmg 0 0 .crit 0%  .launch 4321 .target @~1234 .heal 8 14 .is_crit_valid False
+skill: .id "butler_shown" .type "ranged" .atk 92.5% .dmg 0 0 .crit 0% .launch 4321 .target ~1234  .effect "CC Shuffle DoT" "Midnight Minuet 1" "Midnight Minuet 1"
+skill: .id "butler_revive" .type "ranged" .atk 102.5% .dmg 0 0 .crit 0%  .effect "on_death_swap_butler" "butler_kill_self" .launch 4321  .is_crit_valid False
+personality: .prefskill -1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id bloody_butler
+death_class: .monster_class_id corpse_B .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False

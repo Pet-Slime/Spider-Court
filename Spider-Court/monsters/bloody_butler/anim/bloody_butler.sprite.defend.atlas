@@ -1,0 +1,20 @@
+
+bloody_butler.sprite.defend.png
+size: 640,520
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: true
+  xy: 583, 188
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1
+bloodybutler_defend
+  rotate: true
+  xy: 2, 2
+  size: 516, 579
+  orig: 516, 579
+  offset: 0, 0
+  index: -1

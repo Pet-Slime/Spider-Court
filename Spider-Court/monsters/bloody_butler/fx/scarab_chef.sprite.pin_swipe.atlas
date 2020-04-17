@@ -1,0 +1,13 @@
+
+scarab_chef.sprite.pin_swipe.png
+size: 656,225
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pin_swipe
+  rotate: false
+  xy: 3, 3
+  size: 650, 219
+  orig: 650, 219
+  offset: 0, 0
+  index: -1

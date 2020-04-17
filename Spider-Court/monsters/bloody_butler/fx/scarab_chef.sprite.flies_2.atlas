@@ -1,0 +1,34 @@
+
+scarab_chef.sprite.flies_2.png
+size: 958,1073
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fly1
+  rotate: false
+  xy: 57, 7
+  size: 43, 47
+  orig: 43, 47
+  offset: 0, 0
+  index: -1
+fly2
+  rotate: false
+  xy: 3, 3
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+fly3
+  rotate: false
+  xy: 103, 23
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+food_outline_2
+  rotate: false
+  xy: 3, 57
+  size: 952, 1013
+  orig: 952, 1013
+  offset: 0, 0
+  index: -1

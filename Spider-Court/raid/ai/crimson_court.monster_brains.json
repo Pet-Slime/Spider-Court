@@ -1069,35 +1069,35 @@
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 2.0,
+						"base_chance": 4.0,
 						"combat_skill_id": "rib_cracker"
 					}
 				},
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 2.0,
+						"base_chance": 4.0,
 						"combat_skill_id": "needling_execration"
 					}
 				},
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 2.0,
+						"base_chance": 4.0,
 						"combat_skill_id": "piercing_foreleg"
 					}
 				},
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 3.0,
+						"base_chance": 6.0,
 						"combat_skill_id": "skewering_repartee"
 					}
 				},
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 10.0,
+						"base_chance": 20.0,
 						"combat_skill_id": "the_hunger_human",
 						"performer_health_ratio_min": 0.01,
 						"performer_health_ratio_max": 0.25
@@ -1106,7 +1106,7 @@
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 10.0,
+						"base_chance": 20.0,
 						"combat_skill_id": "the_hunger_beast",
 						"performer_health_ratio_min": 0.01,
 						"performer_health_ratio_max": 0.55
@@ -1194,35 +1194,35 @@
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 2.0,
+						"base_chance": 4.0,
 						"combat_skill_id": "rib_cracker"
 					}
 				},
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 2.0,
+						"base_chance": 4.0,
 						"combat_skill_id": "needling_execration"
 					}
 				},
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 2.0,
+						"base_chance": 4.0,
 						"combat_skill_id": "piercing_foreleg"
 					}
 				},
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 3.0,
+						"base_chance": 6.0,
 						"combat_skill_id": "skewering_repartee"
 					}
 				},
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 10.0,
+						"base_chance": 20.0,
 						"combat_skill_id": "the_hunger_human",
 						"performer_health_ratio_min": 0.01,
 						"performer_health_ratio_max": 0.25
@@ -1231,7 +1231,7 @@
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 10.0,
+						"base_chance": 20.0,
 						"combat_skill_id": "the_hunger_beast",
 						"performer_health_ratio_min": 0.01,
 						"performer_health_ratio_max": 0.55
